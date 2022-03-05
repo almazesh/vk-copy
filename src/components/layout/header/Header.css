@@ -1,0 +1,52 @@
+body{
+  margin: 0 ;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5277a3;
+
+  padding: 0.6rem 3rem 0.5rem;
+}
+
+.header .img_wrapper{
+  width: 25%;
+}
+
+.header .img_wrapper > img{
+  width: 40px;
+  object-fit: contain;
+  height: 40px;
+}
+
+.header .wrapper {
+  width: calc(75% - 16px);
+  border-radius: 30px;
+  background-color: #2c4a76;
+  position: relative;
+}
+
+
+.header .wrapper > input{
+  width: 100%;
+  background-color: transparent;
+  border:0;
+  outline: 0;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+}
+
+.header .wrapper > input::placeholder{
+  color: #607d9f;
+}
+
+.header .wrapper > svg{
+  fill: #607d9f !important;
+  position: absolute;
+  top: 7px;
+  left: 46.5%;
+}
